@@ -1,0 +1,29 @@
+/* .font-family: "Raleway", sans-serif;
+.font-family: "Roboto", sans-serif; */
+
+/* Web-studio */
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Палитра цветов студия*/
+/* #212121 вторичный цвет */
+/* #757575 цвет основного текста */
+/* #2196F3 акцент и "web" в лого */
+/* #FFFFFF третичный белый, основной фон и фон шапки */
+/* #000000 "studio" в лого чёрный */
+/* #2F303A цвет фона героя и футера */
+/* #F5F4FA цвет фона секции "наша команда" и кнопки фильтров */
+/* rgba(255, 255, 255, 0.6) цвет e-mail и номера телефона футер */

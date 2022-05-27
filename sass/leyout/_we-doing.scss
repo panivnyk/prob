@@ -1,0 +1,54 @@
+/* -------------Чем мы занимаемся------------------- */
+.what-are-we-doing {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .what-are-we-doing {
+    display: contents;
+    text-align: center;
+  }
+  .what-are-we-doing-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .what-are-we-doing-list {
+    display: flex;
+    .item:not(:last-child) {
+      margin-right: 30px;
+    }
+    padding-bottom: 94px;
+  }
+
+  .what-are-we-doing-image {
+    display: block;
+  }
+  .what-are-we-doing-wrap {
+    position: relative;
+  }
+  .what-are-we-doing-sign {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+    color: var(--tertiary-text-color);
+  }
+}
