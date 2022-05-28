@@ -464,25 +464,17 @@ img {
 }
 
 .gallary {
-  background-image: linear-gradient(#fff5f6 40%, #fff 40%);
-}
-
-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: sans-serif;
-}
-
-h1 {
-  color: coral;
+  background-image: linear-gradient(#fff5f6 40%, #fff 40%);
 }
 
 .grid-container {
   columns: 5 80px;
   column-gap: 1.5rem;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 .grid-container div {
@@ -490,10 +482,7 @@ h1 {
   margin: 0 1.5rem 1.5rem 0;
   display: inline-block;
   width: 100%;
-  border: solid 2px black;
-  padding: 5px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  border-radius: 20px;
   transition: all 0.25s ease-in-out;
 }
 .grid-container div:hover img {
@@ -505,14 +494,8 @@ h1 {
 .grid-container div img {
   width: 100%;
   filter: grayscale(100%);
-  border-radius: 5px;
+  border-radius: 20px;
   transition: all 0.25s ease-in-out;
-}
-.grid-container div p {
-  margin: 5px 0;
-  padding: 0;
-  text-align: center;
-  font-style: italic;
 }
 
 /* ----------------Особенности-------------------- */
