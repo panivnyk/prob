@@ -7,25 +7,25 @@
 }
 
 .grid-container {
-  columns: 5 80px;
+  columns: 5 20px;
   column-gap: 1.5rem;
   width: 100%;
   margin: 0 auto;
-  div {
-    width: 150px;
-    margin: 0 1.5rem 1.5rem 0;
+  .item {
+    // width: 50px;
+    // margin: 0 1.5rem 1.5rem 0;
     display: inline-block;
     width: 100%;
+    overflow: hidden;
 
     border-radius: 20px;
     transition: all 0.25s ease-in-out;
-    &:hover img {
+    &:hover .grid-item {
       filter: grayscale(0);
+      transform: scale(1.2);
     }
-    &:hover {
-      border-color: coral;
-    }
-    img {
+
+    .grid-item {
       width: 100%;
       filter: grayscale(100%);
       border-radius: 20px;

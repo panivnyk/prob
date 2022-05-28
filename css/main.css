@@ -472,26 +472,23 @@ img {
 }
 
 .grid-container {
-  columns: 5 80px;
+  columns: 5 20px;
   column-gap: 1.5rem;
   width: 100%;
   margin: 0 auto;
 }
-.grid-container div {
-  width: 150px;
-  margin: 0 1.5rem 1.5rem 0;
+.grid-container .item {
   display: inline-block;
   width: 100%;
+  overflow: hidden;
   border-radius: 20px;
   transition: all 0.25s ease-in-out;
 }
-.grid-container div:hover img {
+.grid-container .item:hover .grid-item {
   filter: grayscale(0);
+  transform: scale(1.2);
 }
-.grid-container div:hover {
-  border-color: coral;
-}
-.grid-container div img {
+.grid-container .item .grid-item {
   width: 100%;
   filter: grayscale(100%);
   border-radius: 20px;
