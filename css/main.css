@@ -472,27 +472,42 @@ img {
 }
 
 .grid-container {
-  columns: 5 20px;
-  column-gap: 1.5rem;
-  width: 100%;
+  display: flex;
+  column-gap: 10px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 .grid-container .item {
   display: inline-block;
-  width: 100%;
   overflow: hidden;
   border-radius: 20px;
-  transition: all 0.25s ease-in-out;
 }
 .grid-container .item:hover .grid-item {
-  filter: grayscale(0);
-  transform: scale(1.2);
+  filter: brightness(1);
+  transform: rotate(1turn);
 }
 .grid-container .item .grid-item {
-  width: 100%;
-  filter: grayscale(100%);
+  filter: brightness(0.8);
   border-radius: 20px;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.item-small {
+  width: 144px;
+  height: 144px;
+  margin-bottom: 10px;
+}
+
+.item-medium {
+  width: 155px;
+  height: 155px;
+}
+
+.item-big {
+  width: 295px;
+  height: 295px;
+  margin-bottom: 10px;
 }
 
 /* ----------------Особенности-------------------- */
